@@ -1,0 +1,215 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 48px;
+    margin: 0 0 16px 0;
+    text-align: center;
+}
+
+header{
+    background-color: white;
+    position: relative;
+    height: 60px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    z-index: 5;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+nav{
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 200px;
+    
+}
+
+nav a{
+    margin-left: 100px;
+}
+
+section{
+    padding: 64px 128px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.navbar{
+    background-color: white;
+
+}
+
+.logo{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    margin-top: 28px;
+}
+
+.fa-icon {
+    font-size: 24px;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+.fa-icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(16, 16, 15);
+}
+
+a:hover{
+    border-bottom: 2px solid rgb(10, 10, 10);
+    transition: 0.2s;
+}
+
+
+.main h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+footer {
+    background-color: rgb(53, 40, 30);
+    padding: 10px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#landing {
+    display: flex;
+}
+
+.btn-index{
+    background-color: black;
+    width: 200px;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5vh;
+    color: white ;
+}
+
+.gambar2{
+    height: 552px;
+}
+
+.gambar3{
+    height: 552px;
+}
+
+#contact {
+    width: 100%;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-title {
+    text-align: left;
+}
+
+.contact-detail form {
+    width: 100%;
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 48%;
+}
+
+#input-message {
+    width: 100%;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #090909;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn-submit:hover {
+    background-color: #0d0d0d;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+}

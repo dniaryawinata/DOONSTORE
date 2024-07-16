@@ -1,0 +1,147 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+header{
+    background-color: white;
+    position: relative;
+    height: 60px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    z-index: 5;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    min-height: 70vh;
+}
+
+.logo{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    margin-top: 28px;
+}
+
+nav {
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
+nav a {
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.fa-icon {
+    font-size: 24px;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+.fa-icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+table img {
+    width: 100px;
+    height: 100px;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+.text1 {
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.text2 {
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.cekout {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cekout button a{
+    color: white !important;
+}
+.cekout button:first-child{
+    margin-left: 120px;
+    background-color: rgb(85, 93, 255);
+    width: 200px;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cekout button:last-child{
+    margin-right: 120px;
+    background-color: rgb(75, 220, 75);
+    width: 200px;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+
+footer {
+    background-color: rgb(53, 40, 30);
+    padding: 10px;
+    text-align: center;
+
+}
+
+footer p {
+    color: white;
+    margin: 20px;
+    font-size: 16px;
+}

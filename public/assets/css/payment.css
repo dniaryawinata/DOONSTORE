@@ -1,0 +1,105 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+header{
+    background-color: white;
+    position: relative;
+    height: 60px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    z-index: 5;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    min-height: 70vh;
+}
+
+nav{
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
+nav a{
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    min-height: 70vh;
+}
+
+.logo{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    margin-top: 28px;
+}
+
+.icon {
+    margin-right: 60px;
+    margin-top: 30px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.payment-section {
+    background-color: #cdcaca;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payment-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #636262;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+    color: white;
+    font-size: 18px;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+}
+
+.payment-options img {
+    width: 50px;
+    height: auto;
+}
+
+footer {
+    background-color: rgb(53, 40, 30);
+    padding:10px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin: 20px;
+    font-size: 16px;
+}

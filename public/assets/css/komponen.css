@@ -1,0 +1,319 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 48px;
+    margin: 0 0 16px 0;
+    text-align: center;
+}
+
+header{
+    background-color: white;
+    position: relative;
+    height: 60px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    z-index: 5;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    min-height: 70vh;
+}
+
+nav{
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
+nav a{
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    padding: 64px 128px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+p{
+    color: rgb(53, 40, 30);
+    margin: 0 0 16px 0;
+    font-size: 24px;
+}
+
+#landing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 16px;
+}
+
+#landing p{
+    margin-bottom: 32px;
+    font-size: 20px;
+    padding-right: 100px;
+    color: rgb(0, 0, 0);
+}
+
+#landing > div{
+    width: 50%;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+
+.logo{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    margin-top: 28px;
+}
+
+.fa-icon {
+    font-size: 24px;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+.fa-icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(53, 40, 30);
+}
+
+a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s;
+}
+
+#landing div h1{
+    font-weight: 20px;
+    font-size: 40px;
+}
+
+.btn{
+    background-color: rgb(53, 40, 30);
+    color: white;
+    padding: 10px 28px;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 30px;
+}
+
+.btn-submit{
+    background-color: rgb(53, 40, 30);
+    color: white;
+    padding: 10px 32px;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 350px;
+    margin-top: 28px;
+    font-size: medium;
+}
+
+.btn:hover{
+    background-color: rgb(53, 40, 30);
+    color: white;
+    opacity: 0.5;
+}
+
+
+#about div h1{
+    font-weight: 20px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#about div p{
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 12px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 33vw;
+    height: 70vh;
+    margin-top: 40px;
+  }
+
+
+.contact-title{
+    position: relative;
+}
+
+.contact-title::before{
+    content: " ";
+    width: 60px;
+    height: 60px;
+    background: url("./images/accent1.svg");
+    position: absolute;
+    left: -10px;
+    top: -5px;
+    z-index:-1;
+}
+
+.contact-detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    column-gap: 128px;
+}
+
+.contact-detail > div, .contact-detail > form{
+    width: 100%;
+}
+
+.form-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 32px;
+    margin-top: 32px;
+    grid-template-areas:    "name subject"
+                            "email phone"
+                            "message message";
+}
+
+#input-name{
+    grid-area: name;
+}
+
+#input-subject{
+    grid-area: subject;
+}
+#input-email{
+    grid-area: email;
+}
+#input-phone{
+    grid-area: phone;
+}
+#input-message{
+    grid-area: message;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(53, 40, 30);
+    padding: 64px 32px;
+}
+
+form h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+form button{
+    border: none;
+}
+
+form button:hover{
+    cursor: pointer;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.input-group label{
+    font-weight: 700;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.input-group input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+
+.input-group input:focus{
+    border-bottom: 2px solid rgb(53, 40, 30);
+}
+
+.gambar1 {
+    height: 150px;
+    width: 150px;
+}
+    
+.gambar2 {
+    height: 150px;
+    width: 150px;
+}
+
+.gambar3 {
+    height: 150px;
+    width: 150px;
+}
+
+.gambar4 {
+    height: 150px;
+    width: 150px;
+}
+
+.gambar5 {
+    height: 150px;
+    width: 150px;
+}
+
+.gambar6 {
+    height: 150px;
+    width: 150px;
+}
+
+.centang {
+    position :relative;
+    display: inline-block;
+    background-color: #d3d0d0;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4vh;
+    text-align: center;
+    padding:100px;
+    margin: 20px auto;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    background-color: rgb(53, 40, 30);
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin: 20px;
+    font-size: 16px;
+}
